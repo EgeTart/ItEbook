@@ -44,8 +44,6 @@ class BookListController: UITableViewController {
         tableView.tableFooterView = UIView()
         tableView.tableFooterView?.tag = 105
         
-        //setupBackgroundView()
-        
         sectionTitles.append("Page 1")
         tableView.footer = MJRefreshBackNormalFooter(refreshingTarget: self, refreshingAction: "loadMoreBooks")
         
