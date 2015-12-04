@@ -33,7 +33,8 @@ class Book {
         if dict.keys.contains("SubTitle") {
             self.subTitle = dict["SubTitle"] as! String
         }
-
+        
+        //print(dict)
     }
     
 }
