@@ -16,9 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
         
-        self.window?.tintColor = UIColor.purpleColor()
+        NSThread.sleepForTimeInterval(0.5)
+        
+        self.window?.tintColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.9)
+        
+        MagicalRecord.enableShorthandMethods()
+        MagicalRecord.setupCoreDataStackWithStoreNamed("books.sqlite")
         
         return true
     }
@@ -44,7 +48,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
         // Saves changes in the application's managed object context before the application terminates.
-        self.saveContext()
+        //self.saveContext()
+        MagicalRecord.cleanUp()
     }
 
     // MARK: - Core Data stack
@@ -96,19 +101,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     // MARK: - Core Data Saving support
 
-    func saveContext () {
-        if managedObjectContext.hasChanges {
-            do {
-                try managedObjectContext.save()
-            } catch {
-                // Replace this implementation with code to handle the error appropriately.
-                // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                let nserror = error as NSError
-                NSLog("Unresolved error \(nserror), \(nserror.userInfo)")
-                abort()
-            }
-        }
-    }
+//    func saveContext () {
+//        if managedObjectContext.hasChanges {
+//            do {
+//                try managedObjectContext.save()
+//            } catch {
+//                // Replace this implementation with code to handle the error appropriately.
+//                // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
+//                let nserror = error as NSError
+//                NSLog("Unresolved error \(nserror), \(nserror.userInfo)")
+//                abort()
+//            }
+//        }
+//    }
 
 }
 

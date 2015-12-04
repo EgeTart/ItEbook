@@ -1,1 +1,3 @@
 pod 'MJRefresh'
+
+pod "MagicalRecord"

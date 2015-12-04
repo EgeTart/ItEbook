@@ -8,9 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		A8D13C75F96A81D306107388 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F353840E2E95043FFBC66135 /* libPods.a */; };
+		C162200A1BE774A40057424C /* EBook+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16220081BE774A40057424C /* EBook+CoreDataProperties.swift */; };
+		C162200B1BE774A40057424C /* EBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16220091BE774A40057424C /* EBook.swift */; };
+		C19590991BE5D3160045B3B7 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19590981BE5D3160045B3B7 /* BookCell.swift */; };
+		C195909B1BE5DF100045B3B7 /* BookDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C195909A1BE5DF100045B3B7 /* BookDetailController.swift */; };
+		C195909D1BE5E2C00045B3B7 /* BookDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C195909C1BE5E2C00045B3B7 /* BookDetails.swift */; };
+		C19590A71BE611770045B3B7 /* BookCoverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19590A61BE611770045B3B7 /* BookCoverCell.swift */; };
+		C19590A91BE612620045B3B7 /* CollectionBookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19590A81BE612620045B3B7 /* CollectionBookController.swift */; };
+		C19590AB1BE62DDC0045B3B7 /* SimpleAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C19590AA1BE62DDC0045B3B7 /* SimpleAlertView.xib */; };
+		C19590AD1BE62DE70045B3B7 /* SimpleAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19590AC1BE62DE70045B3B7 /* SimpleAlertView.swift */; };
 		C19BFF621BAAF32B006BCE16 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19BFF611BAAF32B006BCE16 /* Book.swift */; };
 		C1FD6ABE1BA8669D00842D55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FD6ABD1BA8669D00842D55 /* AppDelegate.swift */; };
-		C1FD6AC01BA8669D00842D55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FD6ABF1BA8669D00842D55 /* ViewController.swift */; };
 		C1FD6AC31BA8669D00842D55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1FD6AC11BA8669D00842D55 /* Main.storyboard */; };
 		C1FD6AC61BA8669D00842D55 /* ItEbook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C1FD6AC41BA8669D00842D55 /* ItEbook.xcdatamodeld */; };
 		C1FD6AC81BA8669D00842D55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1FD6AC71BA8669D00842D55 /* Assets.xcassets */; };
@@ -44,10 +52,18 @@
 /* Begin PBXFileReference section */
 		35BC4B73C555A91B26939E71 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		36698B8701C54F29FE7C324A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C16220081BE774A40057424C /* EBook+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EBook+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C16220091BE774A40057424C /* EBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EBook.swift; sourceTree = "<group>"; };
+		C19590981BE5D3160045B3B7 /* BookCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		C195909A1BE5DF100045B3B7 /* BookDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDetailController.swift; sourceTree = "<group>"; };
+		C195909C1BE5E2C00045B3B7 /* BookDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDetails.swift; sourceTree = "<group>"; };
+		C19590A61BE611770045B3B7 /* BookCoverCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCoverCell.swift; sourceTree = "<group>"; };
+		C19590A81BE612620045B3B7 /* CollectionBookController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionBookController.swift; sourceTree = "<group>"; };
+		C19590AA1BE62DDC0045B3B7 /* SimpleAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleAlertView.xib; sourceTree = "<group>"; };
+		C19590AC1BE62DE70045B3B7 /* SimpleAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleAlertView.swift; sourceTree = "<group>"; };
 		C19BFF611BAAF32B006BCE16 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		C1FD6ABA1BA8669D00842D55 /* ItEbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItEbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1FD6ABD1BA8669D00842D55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C1FD6ABF1BA8669D00842D55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C1FD6AC21BA8669D00842D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1FD6AC51BA8669D00842D55 /* ItEbook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ItEbook.xcdatamodel; sourceTree = "<group>"; };
 		C1FD6AC71BA8669D00842D55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -155,7 +171,10 @@
 		C1FD6AD21BA866E600842D55 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				C16220081BE774A40057424C /* EBook+CoreDataProperties.swift */,
+				C16220091BE774A40057424C /* EBook.swift */,
 				C19BFF611BAAF32B006BCE16 /* Book.swift */,
+				C195909C1BE5E2C00045B3B7 /* BookDetails.swift */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -163,8 +182,9 @@
 		C1FD6AD31BA866F600842D55 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C1FD6ABF1BA8669D00842D55 /* ViewController.swift */,
 				C1FD6AD71BA8678500842D55 /* BookListController.swift */,
+				C195909A1BE5DF100045B3B7 /* BookDetailController.swift */,
+				C19590A81BE612620045B3B7 /* CollectionBookController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -172,6 +192,9 @@
 		C1FD6AD41BA8670400842D55 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C19590981BE5D3160045B3B7 /* BookCell.swift */,
+				C19590A61BE611770045B3B7 /* BookCoverCell.swift */,
+				C19590AC1BE62DE70045B3B7 /* SimpleAlertView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -194,6 +217,7 @@
 			children = (
 				C1FD6AC11BA8669D00842D55 /* Main.storyboard */,
 				C1FD6AC91BA8669D00842D55 /* LaunchScreen.storyboard */,
+				C19590AA1BE62DDC0045B3B7 /* SimpleAlertView.xib */,
 			);
 			name = Storyboard;
 			sourceTree = "<group>";
@@ -305,7 +329,7 @@
 				TargetAttributes = {
 					C1FD6AB91BA8669D00842D55 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = L225J6UWE9;
+						DevelopmentTeam = D73CRDQ762;
 					};
 				};
 			};
@@ -333,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1FD6ACB1BA8669D00842D55 /* LaunchScreen.storyboard in Resources */,
+				C19590AB1BE62DDC0045B3B7 /* SimpleAlertView.xib in Resources */,
 				C1FD6AC81BA8669D00842D55 /* Assets.xcassets in Resources */,
 				C1FD6AC31BA8669D00842D55 /* Main.storyboard in Resources */,
 			);
@@ -393,14 +418,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C162200A1BE774A40057424C /* EBook+CoreDataProperties.swift in Sources */,
 				C1FD6B171BA869F000842D55 /* UIImage+GIF.m in Sources */,
+				C195909B1BE5DF100045B3B7 /* BookDetailController.swift in Sources */,
+				C19590A91BE612620045B3B7 /* CollectionBookController.swift in Sources */,
 				C1FD6ADD1BA868F100842D55 /* NSObject+Bridge.m in Sources */,
 				C1FD6B151BA869F000842D55 /* SDWebImagePrefetcher.m in Sources */,
-				C1FD6AC01BA8669D00842D55 /* ViewController.swift in Sources */,
+				C19590A71BE611770045B3B7 /* BookCoverCell.swift in Sources */,
 				C1FD6AC61BA8669D00842D55 /* ItEbook.xcdatamodeld in Sources */,
 				C1FD6B0E1BA869F000842D55 /* NSData+ImageContentType.m in Sources */,
 				C1FD6AE51BA8699F00842D55 /* HTTPRequestSerializer.swift in Sources */,
 				C1FD6AD81BA8678500842D55 /* BookListController.swift in Sources */,
+				C19590991BE5D3160045B3B7 /* BookCell.swift in Sources */,
 				C1FD6B161BA869F000842D55 /* UIButton+WebCache.m in Sources */,
 				C1FD6B131BA869F000842D55 /* SDWebImageDownloaderOperation.m in Sources */,
 				C1FD6B0D1BA869F000842D55 /* MKAnnotationView+WebCache.m in Sources */,
@@ -412,10 +441,13 @@
 				C19BFF621BAAF32B006BCE16 /* Book.swift in Sources */,
 				C1FD6B1C1BA869F000842D55 /* UIView+WebCacheOperation.m in Sources */,
 				C1FD6AE81BA8699F00842D55 /* HTTPStatusCode.swift in Sources */,
+				C162200B1BE774A40057424C /* EBook.swift in Sources */,
 				C1FD6ABE1BA8669D00842D55 /* AppDelegate.swift in Sources */,
 				C1FD6B121BA869F000842D55 /* SDWebImageDownloader.m in Sources */,
 				C1FD6B1A1BA869F000842D55 /* UIImageView+HighlightedWebCache.m in Sources */,
 				C1FD6B111BA869F000842D55 /* SDWebImageDecoder.m in Sources */,
+				C19590AD1BE62DE70045B3B7 /* SimpleAlertView.swift in Sources */,
+				C195909D1BE5E2C00045B3B7 /* BookDetails.swift in Sources */,
 				C1FD6B191BA869F000842D55 /* UIImage+WebP.m in Sources */,
 				C1FD6B141BA869F000842D55 /* SDWebImageManager.m in Sources */,
 				C1FD6AEA1BA8699F00842D55 /* HTTPUpload.swift in Sources */,
@@ -536,9 +568,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ItEbook/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.egetart.ItEbook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.egetart.bigbook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ItEbook/ItEbook-Bridging-Header.h";
@@ -555,9 +587,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ItEbook/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.egetart.ItEbook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.egetart.bigbook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ItEbook/ItEbook-Bridging-Header.h";
